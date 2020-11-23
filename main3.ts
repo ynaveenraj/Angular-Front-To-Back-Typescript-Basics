@@ -17,5 +17,3 @@ const ColorBlue = '#0000FF';
 enum Color {RED=0, GREEN=1, BLUE=2};
 
 let backgroundColor = Color.GREEN;
-
-let result = 100;
