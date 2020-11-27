@@ -1,6 +1,6 @@
 // type assertions
-let message;
+var message;
 message = 'abc';
-let t1 = message.endsWith('c'); // es6 method
+var t1 = message.endsWith('c'); // es6 method
 console.log(t1);
-let t2 = message.endsWith('c');
+var t2 = message.endsWith('c');

@@ -1,0 +1,21 @@
+// let x: any;
+var x;
+x = 10;
+x = true;
+var a;
+var b;
+var c;
+var d;
+var e = [10, 20, 30, 40];
+var f = [10, "hello", true, 'a'];
+var ColorRed = '#FF0000';
+var ColorGreen = '#00FF00';
+var ColorBlue = '#0000FF';
+var Color;
+(function (Color) {
+    Color[Color["RED"] = 0] = "RED";
+    Color[Color["GREEN"] = 1] = "GREEN";
+    Color[Color["BLUE"] = 2] = "BLUE";
+})(Color || (Color = {}));
+;
+var backgroundColor = Color.GREEN;
